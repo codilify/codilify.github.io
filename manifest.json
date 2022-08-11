@@ -3,12 +3,12 @@
     "name": "Codilify",
     "icons": [
         {
-            "src": "/media/images/Codilify-1.jpg",
+            "src": "./media/images/Codilify-1.jpg",
             "type": "image/jpg",
             "sizes": "192x192"
         },
         {
-            "src": "/media/images/Codilify-1.jpg",
+            "src": "./media/images/Codilify-1.jpg",
             "type": "image/jpg",
             "sizes": "512x512"
         }
