@@ -3,18 +3,18 @@
     "name": "Codilify",
     "icons": [
         {
-            "src": "./media/images/Codilify-1.jpg",
+            "src": "/media/images/Codilify-1.png",
             "type": "image/jpg",
             "sizes": "192x192"
         },
         {
-            "src": "./media/images/Codilify-1.jpg",
+            "src": "/media/images/Codilify-1.png",
             "type": "image/jpg",
             "sizes": "512x512"
         }
     ],
     "start_url": "/",
-    "background_color": "#294d8a",
+    "background_color": "#fff",
     "display": "standalone",
     "theme_color": "#294d8a"
 }
