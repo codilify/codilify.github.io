@@ -7,7 +7,7 @@
 }
 
 :root {
-    --condilify-logo-size: 200px;
+    --condilify-logo-size: 350px;
     --condilify-code-line-width: 3%;
     --condilify-code-line-height: 5%;
 }
@@ -161,45 +161,6 @@ a {
 .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
     top: 0;
 }
-
-/* 48em = 768px */
-
-@media (min-width: 48em) {
-    .header {
-        justify-content: space-between;
-    }
-
-    .header li {
-        float: left;
-    }
-
-    .header li a {
-        padding: 20px 30px;
-    }
-
-    .header .menu {
-        clear: none;
-        float: right;
-        max-height: none;
-    }
-
-    .header .menu-icon {
-        display: none;
-    }
-
-    .header ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color: #fff;
-        position: relative;
-        top: auto;
-        width: auto;
-        height: 59px;
-    }
-}
-
 /* HEADER END */
 
 /* MAIN START */
@@ -232,7 +193,7 @@ main {
 }
 
 .landing .jumbo-intro {
-    flex: 0 1 50%;
+    flex: 0 1 60%;
     background: rgb(20 55 106 / 86%);
     padding: 20px 50px;
     height: 100%;
@@ -263,7 +224,7 @@ main {
 }
 
 .landing .intro-image {
-    flex: 0 1 50%;
+    flex: 0 1 40%;
     width: 100%;
     height: 100%;
     position: relative;
@@ -520,3 +481,56 @@ main {
     }
 }
 /* LOGO END */
+
+/* 48em = 768px */
+
+@media (max-width: 48em) {
+    .landing {
+        flex-direction: column;
+    }
+
+    .landing .jumbo-intro {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .landing .intro-image {
+        flex: 1 1 100%;
+    }
+}
+
+@media (min-width: 48em) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .header li {
+        float: left;
+    }
+
+    .header li a {
+        padding: 20px 30px;
+    }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+
+    .header ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background-color: #fff;
+        position: relative;
+        top: auto;
+        width: auto;
+        height: 59px;
+    }
+}
