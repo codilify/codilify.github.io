@@ -24,6 +24,12 @@ a {
 }
 /* ACHOR END */
 
+/* TEXT ALIGNMENT START */
+.center {
+    text-align: center;
+}
+/* TEXT ALIGNMENT END */
+
 /* HEADER START */
 .header {
     background-color: #fff;
@@ -204,23 +210,30 @@ main {
     z-index: 2;
 }
 
-.landing .jumbo-intro ul {
+ul.ul {
     list-style: none;
     line-height: 2rem;
     padding-left: 0;
 }
 
-.landing .jumbo-intro ul li {
+ul.ul li {
     position: relative;
     padding-left: 1.5em;  /* space to preserve indentation on wrap */
 }
 
-.landing .jumbo-intro ul li:before {
-    content: '✓';
+ul.ul li:before {
     position: absolute;
     left: 0;  /* place the SVG at the start of the padding */
     width: 1em;
     height: 1em;
+}
+
+ul.ul.tick-list li:before {
+    content: '✓';
+}
+
+ul.ul.diamond-list li:before {
+    content: '◈';
 }
 
 .landing .intro-image {
@@ -469,6 +482,30 @@ main {
     background-color: #000;
 }
 
+/* WHAT WE DO START */
+.what-we-do-section {
+    padding-top: 20px;
+}
+
+.what-we-do {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.what-we-do .we-do {
+    flex: 1 0 50%;
+    padding: 20px 50px;
+}
+/* WHAT WE DO END */
+
+/* CARD START */
+.card {
+    box-shadow:  1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
+    padding: 1px 20px 10px 20px;
+    border-radius: 3px;
+}
+/* CARD END */
+
 @keyframes reveal {
     0% {
         height: 100%;
@@ -485,11 +522,11 @@ main {
 /* 48em = 768px */
 
 @media (max-width: 48em) {
-    .landing {
+    .landing, .what-we-do {
         flex-direction: column;
     }
 
-    .landing .jumbo-intro {
+    .landing .jumbo-intro, .what-we-do .we-do {
         flex: 1 1 100%;
         width: 100%;
     }
@@ -497,6 +534,7 @@ main {
     .landing .intro-image {
         flex: 1 1 100%;
     }
+
 }
 
 @media (min-width: 48em) {
