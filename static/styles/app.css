@@ -236,6 +236,10 @@ ul.ul.diamond-list li:before {
     content: '◈';
 }
 
+ul.ul.fish-eye-list li:before {
+    content: '◉';
+}
+
 .landing .intro-image {
     flex: 0 1 40%;
     width: 100%;
@@ -498,6 +502,30 @@ ul.ul.diamond-list li:before {
 }
 /* WHAT WE DO END */
 
+/* VISION MISSION START */
+.vision-mission-section {
+    display: flex;
+    padding-top: 40px;
+}
+
+.flex-equal {
+    flex: 1 0 50%;
+}
+
+.vision, .mission {
+    padding: 20px 50px;
+}
+
+.mission {
+    background: rgb(20 55 106 / 86%);
+    color: #f4f4f4;
+}
+
+.vision {
+    background: #E6E6E6;
+}
+/* VISION MISSION END */
+
 /* CARD START */
 .card {
     box-shadow:  1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
@@ -522,11 +550,11 @@ ul.ul.diamond-list li:before {
 /* 48em = 768px */
 
 @media (max-width: 48em) {
-    .landing, .what-we-do {
+    .landing, .what-we-do, .vision-mission-section {
         flex-direction: column;
     }
 
-    .landing .jumbo-intro, .what-we-do .we-do {
+    .landing .jumbo-intro, .what-we-do .we-do, .flex-equal {
         flex: 1 1 100%;
         width: 100%;
     }
