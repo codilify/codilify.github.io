@@ -578,11 +578,28 @@ ul.ul.black-diamond-x-list li:before {
     font-size: 1rem;
     font-weight: bold;
     padding: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.values-image-text .rearrange {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 /* VISION MISSION VALUES END */
 
 /* CROSSWORD START */
+
+.values-image-text .crossword-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
 .crossword {
     display: block;
 }

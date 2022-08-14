@@ -375,4 +375,11 @@ String.prototype.replaceAll = function (replaceThis, withThis) {
 //---------------------------------//
 
 Create();
+
+let rearrangeCrossword = document.querySelector('#rearrange-crossword');
+if (rearrangeCrossword) {
+    rearrangeCrossword.addEventListener('click', function(e) {
+        Create();
+    })
+}
 // CROSS WORD GENERATOR END
