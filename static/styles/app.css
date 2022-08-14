@@ -586,6 +586,7 @@ ul.ul.black-diamond-x-list li:before {
     position: absolute;
     bottom: 10px;
     right: 10px;
+    cursor: pointer;
 }
 
 /* VISION MISSION VALUES END */
@@ -598,6 +599,7 @@ ul.ul.black-diamond-x-list li:before {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .crossword {
