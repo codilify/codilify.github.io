@@ -655,6 +655,97 @@ ul.ul.black-diamond-x-list li:before {
 
 /* CARD END */
 
+/* FOOTER START */
+footer {
+    background: rgb(20 55 106 / 86%);
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: #2f4374 0 10px 20px 5px;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .main {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+footer .heading {
+    margin-bottom: 15px;
+}
+
+footer .col1 {
+    flex: 1;
+}
+
+footer .col2 {
+    flex: 2;
+}
+
+footer .col3 {
+    flex: 1;
+}
+
+footer .col1 a {
+    display: inline-block;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+footer .col1 a:hover {
+    color: #58bed5;
+}
+
+footer .col2 .languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+}
+
+footer .col2 a {
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+footer .col2 a:hover {
+    background: #58bed5;
+}
+
+footer .social {
+    display: flex;
+    gap: 20px;
+}
+
+footer .col3 ion-icon {
+    font-size: 30px;
+}
+
+footer .social a:hover ion-icon {
+    color: #5ac1d8;
+}
+
+footer .terms {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+footer .copyright {
+    display: flex;
+    font-size: 12px;
+}
+
+footer .terms a, footer a, footer ul li, footer header, footer {
+    color: #f4f4f4;
+}
+
+/* FOOTER END */
+
 @keyframes reveal {
     0% {
         height: 100%;
@@ -693,7 +784,8 @@ ul.ul.black-diamond-x-list li:before {
         flex: 1 1 100%;
     }
 
-    .what-we-do .we-do:first-of-type, .what-we-do .we-do:last-of-type {
+    .what-we-do .we-do:first-of-type,
+    .what-we-do .we-do:last-of-type {
         padding: 20px 50px;
     }
 
