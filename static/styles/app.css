@@ -540,7 +540,8 @@ ul.ul.black-diamond-x-list li:before {
 
 .vision,
 .mission {
-    padding: 20px 50px;
+    padding: 75px 50px;
+    height: 400px;
 }
 
 .mission {
@@ -549,7 +550,7 @@ ul.ul.black-diamond-x-list li:before {
 }
 
 .values {
-    padding: 20px 50px;
+    padding: 40px 50px;
 }
 
 .values-image {

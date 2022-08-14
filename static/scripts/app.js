@@ -80,7 +80,7 @@ function ToggleInputBoxes(active) {
 
 
 function GetWordsFromInput() {
-    wordArr = ['TRUST', 'RESPECT', 'ETHICS', 'INNOVATION', 'COMMITMENT'];
+    wordArr = ['RESPECT', 'TRUST', 'INNOVATION', 'ETHICS', 'COMMITMENT'];
     for (var i = 0, val, w = document.getElementsByClassName("word"); i < w.length; i++) {
         val = w[i].value.toUpperCase();
         if (val !== null && val.length > 1) { wordArr.push(val); }
