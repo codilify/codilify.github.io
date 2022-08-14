@@ -375,8 +375,4 @@ String.prototype.replaceAll = function (replaceThis, withThis) {
 //---------------------------------//
 
 Create();
-setInterval(() => {
-    Create();
-}, 5000)
-// Play();
 // CROSS WORD GENERATOR END

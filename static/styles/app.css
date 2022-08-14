@@ -193,7 +193,7 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../media/images/arnold-francisca-nPhl2x4fk2s-unsplash.webp');
+    /* background-image: url('../media/images/arnold-francisca-nPhl2x4fk2s-unsplash.webp'); */
     background-size: cover;
     background-repeat: no-repeat;
     filter: opacity(0.5) blur(3px);
@@ -241,6 +241,10 @@ ul.ul.diamond-list li:before {
 
 ul.ul.fish-eye-list li:before {
     content: '◉';
+}
+
+ul.ul.black-diamond-x-list li:before {
+    content: '❖';
 }
 
 .landing .intro-image {
@@ -505,6 +509,14 @@ ul.ul.fish-eye-list li:before {
     padding: 20px 50px;
 }
 
+.what-we-do .we-do:first-of-type {
+    padding: 20px 25px 20px 50px;
+}
+
+.what-we-do .we-do:last-of-type {
+    padding: 20px 50px 20px 25px;
+}
+
 /* WHAT WE DO END */
 
 /* VISION MISSION VALUES START */
@@ -679,6 +691,10 @@ ul.ul.fish-eye-list li:before {
 
     .landing .intro-image {
         flex: 1 1 100%;
+    }
+
+    .what-we-do .we-do:first-of-type, .what-we-do .we-do:last-of-type {
+        padding: 20px 50px;
     }
 
 }
